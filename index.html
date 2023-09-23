@@ -1,15 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uz">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Template</title>
+    <title>Mebel do'koni</title>
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/main.css">
     <!--<link rel="stylesheet" href="./css/main.min.css">-->
 </head>
 <body>
-    <header class="site-header"></header>
+    <header class="site-header header">
+        <div class="container">
+            <div class="header__inner">
+                <a class="header__logolink" href="./index.html">
+                    <img 
+                        class="header__logoimg" 
+                        src="./images/site-logo.png" 
+                        alt="Site logo" 
+                        width="150" 
+                        height="100"
+                        >
+                </a>
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__item">
+                            <a class="header__link" href="#">BIZ HAQIMIZDA</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__link" href="#">KONTAKLAR</a>
+                        </li>
+                    </ul>
+                    <div class="header__lang">
+                        <a class="header__langlink" href="#" language="english" class="active">UZ</a>
+                        <a class="header__langlink" href="#" language="russian">RU</a>
+                   </div>
+                    <button class="header__button"></button>
+                </nav>
+            </div>
+        </div>
+    </header>
 
     <main class="site-main"></main>
 
